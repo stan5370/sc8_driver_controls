@@ -1,0 +1,27 @@
+[
+   {
+      "directory" : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/Debug",
+      "command"   : "clang++ -I\"C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls\" -I\"C:/mspgcc/msp430/include\" -isystem\"C:/mspgcc/lib/gcc-lib/msp430/3.2.3/include\" -isystem\"C:/mspgcc/msp430/include\"",
+      "file"      : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/can.c"
+   },
+   {
+      "directory" : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/Debug",
+      "command"   : "clang++ -I\"C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls\" -I\"C:/mspgcc/msp430/include\" -isystem\"C:/mspgcc/lib/gcc-lib/msp430/3.2.3/include\" -isystem\"C:/mspgcc/msp430/include\"",
+      "file"      : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/gauge.c"
+   },
+   {
+      "directory" : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/Debug",
+      "command"   : "clang++ -I\"C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls\" -I\"C:/mspgcc/msp430/include\" -isystem\"C:/mspgcc/lib/gcc-lib/msp430/3.2.3/include\" -isystem\"C:/mspgcc/msp430/include\"",
+      "file"      : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/pedal.c"
+   },
+   {
+      "directory" : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/Debug",
+      "command"   : "clang++ -I\"C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls\" -I\"C:/mspgcc/msp430/include\" -isystem\"C:/mspgcc/lib/gcc-lib/msp430/3.2.3/include\" -isystem\"C:/mspgcc/msp430/include\"",
+      "file"      : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/tri86.c"
+   },
+   {
+      "directory" : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/Debug",
+      "command"   : "clang++ -I\"C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls\" -I\"C:/mspgcc/msp430/include\" -isystem\"C:/mspgcc/lib/gcc-lib/msp430/3.2.3/include\" -isystem\"C:/mspgcc/msp430/include\"",
+      "file"      : "C:/Users/tansh/Downloads/EV-Driver-Controls-main/EV-Driver-Controls-main/sc8_driver_controls/usci.c"
+   }
+]
