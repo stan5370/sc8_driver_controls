@@ -1,0 +1,9 @@
+"./can.o"
+"./gauge.o"
+"./pedal.o"
+"./tri86.o"
+"./usci.o"
+-Wl,--start-group
+-lgcc
+-lc
+-Wl,--end-group

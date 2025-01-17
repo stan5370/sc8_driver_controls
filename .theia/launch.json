@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MSP430F247.ccxml",
+            "type": "ccs-debug",
+            "request": "launch",
+            "targetConfig": "C:\\Users\\tansh\\Downloads\\EV-Driver-Controls-main\\EV-Driver-Controls-main\\sc8_driver_controls.c\\targetConfigs\\MSP430F247.ccxml"
+        },
+        {
+            "name": "sc8_driver_controls",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "sc8_driver_controls",
+                "resourceId": "/sc8_driver_controls"
+            },
+            "debuggerSettings": {
+                "targetConfigs/MSP430F247.ccxml": {
+                    "TI MSP430 USB1/MSP430": {
+                        "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                    }
+                }
+            }
+        }
+    ]
+}
