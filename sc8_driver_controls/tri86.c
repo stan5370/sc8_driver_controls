@@ -269,6 +269,8 @@ int main( void )
 			
 			// Control CAN bus and pedal sense power
 			if(~(switches & SW_IGN_ACC) || ~(switches & SW_IGN_ON)){ // THIS NEEDS TO BE CHANGED BACK TO NON_INVERTED SIGNALS (1/16/25 Shannon)
+																	// changed :3 (1/16/25 Shannon)
+																	// CHANGED BACK (1/16/25 Shannon)
 				P1OUT |= CAN_PWR_OUT;
 				P6OUT |= ANLG_V_ENABLE;
 			}
