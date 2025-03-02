@@ -80,15 +80,15 @@ void process_pedal( unsigned int analog_a, unsigned int analog_b, unsigned int a
 		// Check limits and clip upper travel region
 		if(pedal > CURRENT_MAX) pedal = CURRENT_MAX;
 		
-		// Scale regen input to a 0.0 to REGEN_MAX range
-		// Clip lower travel region of regen input
-		if(analog_c > REGEN_TRAVEL_MIN) regen = (analog_c - REGEN_TRAVEL_MIN);
-		else regen = 0.0;
-		// Scale regen input
-		regen = regen * REGEN_MAX / REGEN_TRAVEL;
-		// Check limits and clip upper travel region
-		if(regen > REGEN_MAX) regen = REGEN_MAX;
-		
+		// // Scale regen input to a 0.0 to REGEN_MAX range
+		// // Clip lower travel region of regen input
+		// if(analog_c > REGEN_TRAVEL_MIN) regen = (analog_c - REGEN_TRAVEL_MIN);
+		// else regen = 0.0;
+		// // Scale regen input
+		// regen = regen * REGEN_MAX / REGEN_TRAVEL;
+		// // Check limits and clip upper travel region
+		// if(regen > REGEN_MAX) regen = REGEN_MAX;
+		regen = 0.15;
 		// Choose target motor velocity
 		switch(command.state){
 			case MODE_R:
@@ -103,12 +103,15 @@ void process_pedal( unsigned int analog_a, unsigned int analog_b, unsigned int a
 				break;
 			case MODE_DL:
 			case MODE_DH:
+				command.current = pedal;
+				command.rpm = RPM_FWD_MAX;
+				break;
 			case MODE_BL:
 			case MODE_BH:
-				if( request_regen == FALSE ){
+				if( pedal > 0.0 ){
 					command.current = pedal;
 					command.rpm = RPM_FWD_MAX;
-				}
+				} 
 				else{
 					command.current = regen;
 					command.rpm = 0.0;

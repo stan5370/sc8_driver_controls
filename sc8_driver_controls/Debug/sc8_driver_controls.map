@@ -171,7 +171,7 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00008000     0x2310
+.text           0x00008000     0x22c0
                 0x00008000                . = ALIGN (0x2)
  *(.init)
  *(.init)
@@ -255,75 +255,75 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
                 0x00008744                gauge_power_update
                 0x000087a8                gauge_temp_update
                 0x000086b8                gauge_init
- .text          0x000087f8      0x1ac ./pedal.o
+ .text          0x000087f8      0x154 ./pedal.o
                 0x000087f8                process_pedal
- .text          0x000089a4      0xbc8 ./tri86.o
-                0x000092be                io_init
-                0x000092b0                clock_init
-                0x00009314                timerB_init
-                0x00009390                timer_b0
-                0x00009390                vector_fffa
-                0x000089a4                main
-                0x00009454                vector_fff2
-                0x00009550                adc_isr
-                0x000092fa                timerA_init
-                0x00009348                adc_init
-                0x000094a8                update_switches
-                0x00009454                timer_a0
-                0x00009550                vector_ffea
- .text          0x0000956c       0x4e ./usci.o
-                0x000095a8                usci_exchange
-                0x00009598                usci_transmit
-                0x0000956c                usci_init
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_reset_vector__.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__low_level_init.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__init_stack.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_copy_data.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_clear_bss.o)
- .text          0x000095ba        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__jump_to_main.o)
- .text          0x000095ba       0x3e C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_fixunssfsi.o)
-                0x000095ba                __fixunssfsi
- .text          0x000095f8      0x2be C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_addsub_sf.o)
-                0x00009866                __subsf3
-                0x0000981a                __addsf3
- .text          0x000098b6      0x26a C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_mul_sf.o)
-                0x000098b6                __mulsf3
- .text          0x00009b20      0x172 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_div_sf.o)
-                0x00009b20                __divsf3
- .text          0x00009c92       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_gt_sf.o)
-                0x00009c92                __gtsf2
- .text          0x00009cf4       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_ge_sf.o)
-                0x00009cf4                __gesf2
- .text          0x00009d56       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_lt_sf.o)
-                0x00009d56                __ltsf2
- .text          0x00009db8       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_le_sf.o)
-                0x00009db8                __lesf2
- .text          0x00009e1a       0x92 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_si_to_sf.o)
-                0x00009e1a                __floatsisf
- .text          0x00009eac       0x9c C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_sf_to_si.o)
-                0x00009eac                __fixsfsi
- .text          0x00009f48        0x8 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_thenan_sf.o)
-                0x00009f48                __thenan_sf
- .text          0x00009f50      0x1b0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_pack_sf.o)
-                0x00009f50                __pack_f
- .text          0x0000a100       0xf6 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_unpack_sf.o)
-                0x0000a100                __unpack_f
- .text          0x0000a1f6      0x118 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_fpcmp_parts_sf.o)
-                0x0000a1f6                __fpcmp_parts_f
-                0x0000a30e                . = ALIGN (0x2)
+ .text          0x0000894c      0xbd0 ./tri86.o
+                0x0000926e                io_init
+                0x00009260                clock_init
+                0x000092c4                timerB_init
+                0x00009340                timer_b0
+                0x00009340                vector_fffa
+                0x0000894c                main
+                0x00009404                vector_fff2
+                0x00009500                adc_isr
+                0x000092aa                timerA_init
+                0x000092f8                adc_init
+                0x00009458                update_switches
+                0x00009404                timer_a0
+                0x00009500                vector_ffea
+ .text          0x0000951c       0x4e ./usci.o
+                0x00009558                usci_exchange
+                0x00009548                usci_transmit
+                0x0000951c                usci_init
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_reset_vector__.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__low_level_init.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__init_stack.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_copy_data.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_clear_bss.o)
+ .text          0x0000956a        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__jump_to_main.o)
+ .text          0x0000956a       0x3e C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_fixunssfsi.o)
+                0x0000956a                __fixunssfsi
+ .text          0x000095a8      0x2be C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_addsub_sf.o)
+                0x00009816                __subsf3
+                0x000097ca                __addsf3
+ .text          0x00009866      0x26a C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_mul_sf.o)
+                0x00009866                __mulsf3
+ .text          0x00009ad0      0x172 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_div_sf.o)
+                0x00009ad0                __divsf3
+ .text          0x00009c42       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_gt_sf.o)
+                0x00009c42                __gtsf2
+ .text          0x00009ca4       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_ge_sf.o)
+                0x00009ca4                __gesf2
+ .text          0x00009d06       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_lt_sf.o)
+                0x00009d06                __ltsf2
+ .text          0x00009d68       0x62 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_le_sf.o)
+                0x00009d68                __lesf2
+ .text          0x00009dca       0x92 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_si_to_sf.o)
+                0x00009dca                __floatsisf
+ .text          0x00009e5c       0x9c C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_sf_to_si.o)
+                0x00009e5c                __fixsfsi
+ .text          0x00009ef8        0x8 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_thenan_sf.o)
+                0x00009ef8                __thenan_sf
+ .text          0x00009f00      0x1b0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_pack_sf.o)
+                0x00009f00                __pack_f
+ .text          0x0000a0b0       0xf6 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_unpack_sf.o)
+                0x0000a0b0                __unpack_f
+ .text          0x0000a1a6      0x118 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_fpcmp_parts_sf.o)
+                0x0000a1a6                __fpcmp_parts_f
+                0x0000a2be                . = ALIGN (0x2)
  *(.text.*)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_reset_vector__.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__low_level_init.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__init_stack.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__jump_to_main.o)
-                0x0000a30e                . = ALIGN (0x2)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_reset_vector__.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__low_level_init.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__init_stack.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__jump_to_main.o)
+                0x0000a2be                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000a30e        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
-                0x0000a30e                __stop_progExec__
+ .fini9         0x0000a2be        0x0 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
+                0x0000a2be                __stop_progExec__
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -342,13 +342,13 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000a30e        0x2 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
+ .fini0         0x0000a2be        0x2 C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a(__stop_progExec__.o)
  *(.fini0)
  *(.fini)
  *(.fini)
-                0x0000a310                _etext = .
+                0x0000a2c0                _etext = .
 
-.data           0x00001100       0xa8 load address 0x0000a310
+.data           0x00001100       0xa8 load address 0x0000a2c0
                 0x00001100                PROVIDE (__data_start, .)
                 0x00001100                . = ALIGN (0x2)
  *(.data)
@@ -390,7 +390,7 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
  *(.gnu.linkonce.d*)
                 0x000011a8                . = ALIGN (0x2)
                 0x000011a8                _edata = .
-                0x0000a310                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x0000a2c0                PROVIDE (__data_load_start, LOADADDR (.data))
                 0x000000a8                PROVIDE (__data_size, SIZEOF (.data))
 
 .bootloader     0x00000c00        0x0
@@ -564,30 +564,30 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
  .debug_pubnames
                 0x00002744      0x959 ./usci.o
 
-.debug_info     0x00000000     0x8dc4
+.debug_info     0x00000000     0x8dc2
  *(.debug_info)
  .debug_info    0x00000000     0x1dd9 ./can.o
  .debug_info    0x00001dd9     0x1bbd ./gauge.o
- .debug_info    0x00003996     0x1b59 ./pedal.o
- .debug_info    0x000054ef     0x1de5 ./tri86.o
- .debug_info    0x000072d4     0x1af0 ./usci.o
+ .debug_info    0x00003996     0x1b57 ./pedal.o
+ .debug_info    0x000054ed     0x1de5 ./tri86.o
+ .debug_info    0x000072d2     0x1af0 ./usci.o
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev   0x00000000      0x827
+.debug_abbrev   0x00000000      0x834
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x213 ./can.o
  .debug_abbrev  0x00000213      0x167 ./gauge.o
- .debug_abbrev  0x0000037a      0x152 ./pedal.o
- .debug_abbrev  0x000004cc      0x1ff ./tri86.o
- .debug_abbrev  0x000006cb      0x15c ./usci.o
+ .debug_abbrev  0x0000037a      0x15f ./pedal.o
+ .debug_abbrev  0x000004d9      0x1ff ./tri86.o
+ .debug_abbrev  0x000006d8      0x15c ./usci.o
 
-.debug_line     0x00000000     0x164e
+.debug_line     0x00000000     0x1636
  *(.debug_line)
  .debug_line    0x00000000      0x725 ./can.o
  .debug_line    0x00000725      0x215 ./gauge.o
- .debug_line    0x0000093a      0x1f5 ./pedal.o
- .debug_line    0x00000b2f      0x976 ./tri86.o
- .debug_line    0x000014a5      0x1a9 ./usci.o
+ .debug_line    0x0000093a      0x1dd ./pedal.o
+ .debug_line    0x00000b17      0x976 ./tri86.o
+ .debug_line    0x0000148d      0x1a9 ./usci.o
 
 .debug_frame
  *(.debug_frame)
@@ -617,9 +617,9 @@ LOAD C:\mspgcc\bin\..\lib\gcc-lib\msp430\3.2.3\libgcc.a
 .debug_ranges
  *(.debug_ranges)
                 0x00002100                PROVIDE (__stack, 0x2100)
-                0x0000a310                PROVIDE (__data_start_rom, _etext)
-                0x0000a3b8                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
-                0x0000a3b8                PROVIDE (__noinit_start_rom, (_etext + SIZEOF (.data)))
-                0x0000a3b8                PROVIDE (__noinit_end_rom, ((_etext + SIZEOF (.data)) + SIZEOF (.noinit)))
+                0x0000a2c0                PROVIDE (__data_start_rom, _etext)
+                0x0000a368                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+                0x0000a368                PROVIDE (__noinit_start_rom, (_etext + SIZEOF (.data)))
+                0x0000a368                PROVIDE (__noinit_end_rom, ((_etext + SIZEOF (.data)) + SIZEOF (.noinit)))
                 0x00000000                PROVIDE (__subdevice_has_heap, 0x0)
 OUTPUT(sc8_driver_controls.out elf32-msp430)

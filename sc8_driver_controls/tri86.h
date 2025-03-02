@@ -73,7 +73,7 @@
 
 // Compile-time options
 // #define USE_EGEAR			// Use series/parallel contactor changeover controller
-// #define REGEN_ON_BRAKE		// Use brake pedal to trigger regen, with amount set by Analog C input
+#define REGEN_ON_BRAKE		// Use brake pedal to trigger regen, with amount set by Analog C input
 // #define CUTOUT_ON_BRAKE		// Cut throttle on brake pedal active (solarcar preference to avoid dragging brakes)
 
 // Device serial number
