@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": "file:///c%3A/Users/alice/workspace_ccstheia"
+    },
+    {
+      "path": ""
+    }
+  ],
+  "settings": {},
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "sc8_driver_controls",
+        "type": "ccs-debug",
+        "request": "launch",
+        "projectInfo": {
+          "name": "sc8_driver_controls",
+          "resourceId": "/sc8_driver_controls"
+        },
+        "debuggerSettings": {
+          "targetConfigs/MSP430F247.ccxml": {
+            "TI MSP430 USB1/MSP430": {
+              "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
